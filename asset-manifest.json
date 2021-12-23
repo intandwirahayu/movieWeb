@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/movieWeb/static/css/main.ca4c23bc.css",
-    "main.js": "/movieWeb/static/js/main.d58023b5.js",
+    "main.js": "/movieWeb/static/js/main.07478c9b.js",
     "static/js/787.571cc6cb.chunk.js": "/movieWeb/static/js/787.571cc6cb.chunk.js",
     "static/media/background_header.png": "/movieWeb/static/media/background_header.be68f76011c01e44e256.png",
     "static/media/image-bio.svg": "/movieWeb/static/media/image-bio.e3487b6e31e29ee3ffd2bef9e642f216.svg",
@@ -24,11 +24,11 @@
     "static/media/icon-love.svg": "/movieWeb/static/media/icon-love.a2e2491f9ea7b7a2360cce9afb7180d3.svg",
     "static/media/arrow-right.svg": "/movieWeb/static/media/arrow-right.d3ca2d3bfdd0efe7588a60467363d252.svg",
     "main.ca4c23bc.css.map": "/movieWeb/static/css/main.ca4c23bc.css.map",
-    "main.d58023b5.js.map": "/movieWeb/static/js/main.d58023b5.js.map",
+    "main.07478c9b.js.map": "/movieWeb/static/js/main.07478c9b.js.map",
     "787.571cc6cb.chunk.js.map": "/movieWeb/static/js/787.571cc6cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca4c23bc.css",
-    "static/js/main.d58023b5.js"
+    "static/js/main.07478c9b.js"
   ]
 }
