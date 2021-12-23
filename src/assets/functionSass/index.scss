@@ -1,0 +1,38 @@
+$colorRed : #E84545;
+$colorDoncker : #2B2E4A;
+$colorBlack: #323846;
+$colorGray: #F5F5F5;
+
+@mixin stylingContent1($direction, $justify){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin stylingContent2($direction){
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin stylingContent3($justify){
+    display: flex;
+    justify-content: $justify;
+}
+
+@mixin stylingContent4($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin stylingContent5($align){
+    display: flex;
+    align-items: $align;
+}
+
+@mixin stylingFont($family, $size, $color){
+    font-family: $family;
+    font-size: $size;
+    color: $color;
+}

@@ -1,0 +1,132 @@
+@import '../../../assets/functionSass/index';
+
+#detailMovie{
+    header{
+        width: 100%;
+        @include stylingContent5(center);
+        padding: 20px 20px;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+
+    h3{
+        font-family: "poppins medium";
+        color: #323846;
+    }
+
+    & article > section{
+        margin-bottom: 30px;
+    }
+}
+
+#arrowBack{
+    margin-right: 10px;
+}
+
+#contentHeaderMovie figure > img{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.8;
+    margin-top: 69px;
+}
+
+#contentMovie{
+    display: flex;
+    padding: 30px;
+
+    h3{
+        margin-bottom: 10px;
+    }
+    
+    figure > img{
+        width: 180px;
+        margin-bottom: 20px;
+        margin-right: 30px;
+    }
+}
+
+#rate-map{
+    display: flex;
+
+    div{
+        @include stylingContent5(center);
+        margin: 0px 20px 12px 0px;
+    }
+
+    p{
+        @include stylingFont("poppins regular", 14px, $colorBlack);
+        margin-left: 7px;
+    }
+}
+
+#gendre{
+    display: flex;
+
+    p{
+        @include stylingFont("poppins light", 12px, $colorBlack);
+        background-color: #F5F5F5;
+        padding: 3px 15px;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+}
+
+#primary-data{
+    margin: 30px 0px;
+
+    p{
+        @include stylingFont("poppins regular", 14px, $colorBlack);
+        margin-bottom: 3px;
+    }
+}
+
+.more-data p{
+    @include stylingFont("poppins regular", 14px, $colorBlack);
+    margin-bottom: 3px;
+
+    &{
+        text-align: justify;
+    }
+}
+
+.companies{
+    display: flex;
+    flex-basis: 50%;
+    margin-top: 10px;
+}
+
+#homepage{
+    @include stylingContent3(center);
+}
+
+#btnHomepage{
+    @include stylingFont("poppins medium", 12px, white);
+    text-decoration: none;
+    background-color: $colorRed;
+    padding: 12px 50px;
+    border-radius: 10px;
+}
+
+/* detailTV */
+.nameCreated{
+    @include stylingContent2(row);
+}
+
+.pname{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 693px){
+    #contentMovie{
+        flex-direction: column;
+
+        figure{
+            @include stylingContent1(column, center);
+            align-items: center;
+        }
+    }
+}

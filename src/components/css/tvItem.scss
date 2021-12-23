@@ -1,0 +1,78 @@
+@import '../../assets/functionSass/index';
+
+.tvItem{
+    flex-basis: 32%;
+    @include stylingContent2(column);
+
+    figure{
+        flex-basis: 100%;
+        @include stylingContent1(row, flex-end);
+        padding-bottom: 20px;
+
+        img{
+            width: 369px;
+            flex-basis: 100%;
+            object-fit: cover;
+        }
+    }
+
+    h3{
+        flex-basis: 100%;
+        @include stylingFont("poppins regular", 16px, $colorBlack);
+        padding-bottom: 10px;
+    }
+
+    p{
+        flex-basis: 100%;
+        @include stylingFont("poppins light", 14px, $colorBlack);
+        text-align: justify;
+        padding-bottom: 60px;
+    }
+
+    footer{
+        flex-basis: 100%;
+        @include stylingContent3(flex-end);
+    }
+}
+
+#linkTvItem{
+    @include stylingFont("poppins light", 13px, $colorBlack);
+    text-decoration: none;
+    padding: 8px 18px;
+    background-color: #F9F9F9;
+}
+
+@media screen and (max-width: 1265px){
+    .tvItem figure img{
+        width: 250px;
+    }
+}
+
+/* for tablet */
+@media screen and (max-width: 1000px){
+    .tvItem{
+        flex-basis: 48.6%;
+        margin-bottom: 25px;
+    }
+}
+
+/* for smartphone */
+@media screen and (max-width: 693px){
+    .tvItem{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+
+        h3{
+            font-size: 15px;
+        }
+
+        p{
+            font-size: 13px;
+            padding-bottom: 30px;
+        }
+
+        Link{
+            font-size: 12px;
+        }
+    }
+}

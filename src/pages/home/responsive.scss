@@ -1,0 +1,132 @@
+@media screen and (max-width: 1265px){
+    #topRated article figure img{
+        width: 80%;
+    }
+}
+
+/* for tablet */
+@media screen and (max-width: 1000px){
+    #collections, #product, #topRated, #tvPopular{
+        padding: 100px 50px 0px 50px;
+    }
+}
+
+/* for smartphone */
+@media screen and (max-width: 693px){
+    #bottom-header{
+        padding-left: 25px;
+
+        h1{
+            font-size: 50px;
+        }
+
+        p{
+            font-size: 15px;
+            padding-right: 25px;
+        }
+    }
+
+    #button-signup a{
+        font-size: 13px;
+    }
+
+    #collections, #product, #topRated, #tvPopular{
+        padding: 100px 25px 0px 25px;
+    }
+
+    aside h2{
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    #product footer a{
+        font-size: 12px;
+    }
+
+    #topRated > article{
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        figure{
+            flex-basis: 100%;
+
+            &+article{
+                flex-basis: 100%;
+                padding: 20px 0px 0px 0px;
+
+                p:nth-child(1){
+                    font-size: 15px;
+                }
+
+                h2{
+                    font-size: 28px;
+
+                    &+p{
+                        font-size: 14px;
+                    }
+                }
+
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    #tvPopular{
+        padding: 100px 25px;
+    }
+
+    #advertisement{
+        h2{
+            font-size: 29px;
+            padding-bottom: 4px;
+        }
+
+        p{
+            font-size: 15px;
+        }
+
+        input{
+            font-size: 12px;
+        }
+
+        button{
+            font-size: 12px;
+        }
+    }
+
+    aside{
+        padding: 0px 25px;
+    }
+
+    #bio{
+        flex-wrap: wrap;
+
+        article{
+            flex-basis: 100%;
+            align-items: center;
+        }
+
+        header{
+            flex-basis: 100%;
+            padding-bottom: 30px;
+        }
+
+        article{
+            h3{
+                font-size: 15px;
+            }
+
+            p{
+                font-size: 13px;
+                text-align: center;
+            }
+
+            li a{
+                font-size: 13px;
+            }
+        }
+    }
+}

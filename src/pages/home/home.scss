@@ -1,0 +1,223 @@
+@import '../../assets/functionSass/index';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    max-width: 1366px;
+    display: inline;
+}
+
+#bottom-header{
+    max-width: 1366px;
+    height: 90vh;
+    padding-left: 50px;
+    @include stylingContent1(column, center);
+    flex-basis: 100%;
+    background-image: url("../../assets/images/background_header.png");
+    background-position: center;
+    position: relative;
+
+    h1{
+        @include stylingFont("poppins semi", 60px, white);
+    }
+
+    p{
+        width: 100%;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        @include stylingFont("poppins light", 17px, white);
+        text-align: justify;
+    }
+}
+
+#button-explore a{
+    @include stylingFont("poppins medium", 14px, white);
+    text-decoration: none;
+    background-color: $colorRed;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+
+    &:hover{
+        padding: 10px 30px;
+    }
+}
+
+main{
+    max-width: 1366px;
+    @include stylingContent1(column, center);
+}
+
+#collections, #product, #topRated, #tvPopular{
+    flex-basis: 100%;
+    @include stylingContent1(column, center);
+    padding: 120px 50px 0px 50px;
+
+    article{
+        flex-basis: 100%;
+        @include stylingContent3(space-between);
+        flex-wrap: wrap;
+    }
+}
+
+#product footer{
+    flex-basis: 100%;
+    @include stylingContent1(row, center);
+}
+
+#linkUpcoming{
+    @include stylingFont("poppins medium", 13px, $colorBlack);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid $colorBlack;
+    transition: all 0.5s ease;
+
+    &:hover{
+        padding: 10px 40px;
+        background-color: $colorRed;
+    }
+}
+
+#topRated article figure{
+    flex-basis: 50%;
+    @include stylingContent4(row, center, center);
+    padding: 70px 0px;
+    background-color: $colorDoncker;
+
+    img{
+        width: 436px;
+    }
+}
+
+#topRated figure+article{
+    flex-basis: 45%;
+    @include stylingContent1(column, center);
+
+    p:nth-child(1){
+        @include stylingFont("poppins medium", 16px, $colorRed);
+
+    }
+}
+
+#topRated figure+article h2{
+    @include stylingFont("poppins regular", 30px, $colorBlack);
+
+    &+p{
+        @include stylingFont("poppins light", 15px, $colorBlack);
+        text-align: justify;
+        padding: 10px 0px 40px 0px;
+    }
+}
+
+#linkTopRated{
+    @include stylingFont("poppins light", 15px, $colorBlack);
+}
+
+#tvPopular{
+    padding-bottom: 120px;
+}
+
+#advertisement{
+    flex-basis: 100%;
+    height: 300px;
+    @include stylingContent4(column, center, center);
+    background-image: url("../../assets/images/background_advertisement.png");
+    background-position: top center;
+
+    h2{
+        @include stylingFont("poppins regular", 30px, white);
+        padding-bottom: 8px;
+    }
+
+    p{
+        @include stylingFont("poppins light", 16px, white);
+        padding-bottom: 35px;
+    }
+
+    input{
+        width: 280px;
+        padding: 10px;
+        border: none;
+        @include stylingFont("poppins light", 13px, $colorBlack);
+    }
+
+    button{
+        padding: 10px 15px;
+        border: none;
+        background-color: #E84545;
+        @include stylingFont("poppins medium", 13px, white);
+    }
+}
+
+aside{
+    display: flex;
+    padding: 0px 50px;
+
+    h2{
+        @include stylingFont("poppins regular", 23px, $colorBlack);
+        padding-bottom: 10px;
+    }
+}
+
+#bio{
+    flex-basis: 100%;
+    display: flex;
+    padding: 120px 0px;
+
+    header{
+        flex-basis: 50%;
+        @include stylingContent1(column, center);
+        align-items: center;
+    }
+
+    article{
+        flex-basis: 50%;
+        @include stylingContent1(column, center);
+    }
+
+    figure img{
+        border-radius: 50%;
+        border: 5px solid #2B2E4A;
+    }
+
+    article{
+        h3{
+            @include stylingFont("poppins regular", 16px, $colorBlack);
+            padding-top: 10px;
+        }
+
+        p{
+            @include stylingFont("poppins light", 14px, $colorBlack);
+            padding-top: 30px;
+        }
+    }
+
+    ul{
+        padding-top: 15px;
+
+        li{
+            display: inline-block;
+            padding-right: 20px;
+
+            a{
+                @include stylingFont("poppins medium", 14px, $colorBlack);
+                text-decoration: none;
+                display: flex;
+
+                img{
+                    margin-right: 10px;
+                }
+            }
+        }
+    }   
+}
+
+

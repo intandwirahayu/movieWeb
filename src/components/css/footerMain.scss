@@ -1,0 +1,37 @@
+@import '../../assets/functionSass/index';
+
+#contentFooter{
+    max-width: 1366px;
+    width: 100%;
+    @include stylingContent3(space-between);
+    padding: 15px 50px;
+    border-top: 1px solid rgba(41,41,41, 0.1);
+
+    h4{
+        font-family: "poppins regular";
+        color: #323846;
+    }
+}
+
+#author{
+    @include stylingContent5(center);
+
+    p{
+        @include stylingFont("poppins light", 11px, $colorBlack);
+    }
+
+    img{
+        padding: 0px 5px;
+    }
+}
+
+/* for smartphone */
+@media screen and (max-width: 693px){
+    #contentFooter{
+        padding: 15px 25px;
+    }
+
+    #author p{
+        font-size: 10px;
+    }
+}

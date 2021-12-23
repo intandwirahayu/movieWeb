@@ -1,0 +1,12 @@
+@import '../../assets/functionSass/index';
+
+#upcoming{
+    padding: 50px;
+
+    article{
+        flex-basis: 100%;
+        @include stylingContent1(row, space-between);
+        flex-wrap: wrap;
+        margin: 50px 0px;
+    }
+}
