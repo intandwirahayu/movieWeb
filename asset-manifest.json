@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/movieWeb/static/css/main.ca4c23bc.css",
+    "main.js": "/movieWeb/static/js/main.d58023b5.js",
+    "static/js/787.571cc6cb.chunk.js": "/movieWeb/static/js/787.571cc6cb.chunk.js",
+    "static/media/background_header.png": "/movieWeb/static/media/background_header.be68f76011c01e44e256.png",
+    "static/media/image-bio.svg": "/movieWeb/static/media/image-bio.e3487b6e31e29ee3ffd2bef9e642f216.svg",
+    "static/media/background_advertisement.png": "/movieWeb/static/media/background_advertisement.b5e895582e5401bc056f.png",
+    "static/media/Poppins-Light.ttf": "/movieWeb/static/media/Poppins-Light.3fda0a0ef72be930b308.ttf",
+    "static/media/Poppins-Regular.ttf": "/movieWeb/static/media/Poppins-Regular.9171031e050ecf676c11.ttf",
+    "static/media/Poppins-Medium.ttf": "/movieWeb/static/media/Poppins-Medium.2d6ae121d10e7b9c28b4.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/movieWeb/static/media/Poppins-SemiBold.e67a02ce2ffd90b0d253.ttf",
+    "static/media/no-logo.svg": "/movieWeb/static/media/no-logo.19d2be37c94b06175d0cec9f06d0ca43.svg",
+    "static/media/map.svg": "/movieWeb/static/media/map.aa39e45fb98f2b7ed4e19d918669930c.svg",
+    "static/media/duration.svg": "/movieWeb/static/media/duration.46bf8740dd98fc0612d84d1b346e2a8f.svg",
+    "static/media/arrow-right-white.svg": "/movieWeb/static/media/arrow-right-white.e438c89e1041e898575dfaee12b92c41.svg",
+    "static/media/instagram-logo.svg": "/movieWeb/static/media/instagram-logo.a090492e6e0275a46bfa2c5812f6ad25.svg",
+    "static/media/rate.svg": "/movieWeb/static/media/rate.27b5ce869dd71738298009bba3ca0a42.svg",
+    "static/media/youtube-logo.svg": "/movieWeb/static/media/youtube-logo.a4d3a13eafd10a7002c3f7eb47c94bfe.svg",
+    "static/media/arrowBack.svg": "/movieWeb/static/media/arrowBack.20bfcb5e33897cb9f21b91aa4cc778fc.svg",
+    "static/media/arrowGoTo.svg": "/movieWeb/static/media/arrowGoTo.413347231ee5907671aeff4c48acd50c.svg",
+    "index.html": "/movieWeb/index.html",
+    "static/media/icon_menu.svg": "/movieWeb/static/media/icon_menu.7e30c1edd46e9a2135ca4f4522b60a97.svg",
+    "static/media/icon-love.svg": "/movieWeb/static/media/icon-love.a2e2491f9ea7b7a2360cce9afb7180d3.svg",
+    "static/media/arrow-right.svg": "/movieWeb/static/media/arrow-right.d3ca2d3bfdd0efe7588a60467363d252.svg",
+    "main.ca4c23bc.css.map": "/movieWeb/static/css/main.ca4c23bc.css.map",
+    "main.d58023b5.js.map": "/movieWeb/static/js/main.d58023b5.js.map",
+    "787.571cc6cb.chunk.js.map": "/movieWeb/static/js/787.571cc6cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca4c23bc.css",
+    "static/js/main.d58023b5.js"
+  ]
+}
